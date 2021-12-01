@@ -1,0 +1,245 @@
+* {
+	font-family: open-sans, sans-serif;
+}
+
+/* ===============================================================================
+header
+================================================================================ */
+.topo-style-contatos .icon-top {
+	float: left;
+	color: #545454;
+	font-size: 1.563em;
+	margin-right: 0.938em;
+}
+.topo-style-contatos p {
+	float: left;
+	color: #5E5E5E;
+	font-size: 0.875em;
+}
+	.topo-style-contatos p span {
+		color: #DC6133;
+		font-size: 1.063em;
+		font-weight: bold;
+	} 
+.btn-style {
+	float: right;
+	color: #fff;
+	border-radius: 30px;
+	border: 1px solid #DC6133;
+	padding: 0.625em 1.563em;
+	background-color: #DC6133;
+}
+	.btn-style span {
+		font-size: 1.000em;
+		padding-left: 0.313em;
+	}
+	.btn-style:hover {
+		color: #DC6133;
+		background-color: transparent;
+	}
+
+/* ========= Menu ========= */
+.navbar-menu-topo {
+	background-color: #DC6133;
+}
+	.logo-topo {
+		color: #fff;
+		font-size: 2.250em;
+		font-weight: bold;
+	}
+		.logo-topo:hover {
+			color: #fff;
+		}
+		.logo-topo span {
+			color: #A94119;
+		}
+
+	.navbar-menu-topo li a {
+		color: #fff;
+	}
+		.navbar-menu-topo li a:hover {
+			color: #fff;
+		}
+		.navbar-menu-topo li a:active {
+			color: #fff;
+		}
+		.navbar-menu-topo li a:visited {
+			color: #fff;
+		}
+	div.dropdown-menu > a.dropdown-item {
+		color: #DC6133;
+	}
+
+/* ========= Carousel ========= */
+.carousel-item {
+	position: relative;
+}
+.carousel-style {
+	position: absolute;
+	top: 15%;
+}
+	.carousel-style h3 {
+		color: #545454;
+		font-size: 2.000em;
+		font-weight: bold;
+		text-align: left;
+	}
+	.carousel-style p {
+		color: #676767;
+		font-size: 1.125em;
+		text-align: left;
+	}
+	.carousel-style button {
+		float: left;
+	}
+
+/* ===============================================================================
+Index Qualidades
+================================================================================ */
+.qualidade {
+	padding: 50px 0;
+}
+	.qualidade span {
+		color: #DC6133;
+		font-size: 2.188em;
+	}
+	.qualidade h3 {
+		color: #545454;
+		font-size: 1.500em;
+		font-weight: bold;
+	}
+	.qualidade p {
+		color: #676767;
+		font-size: 0.875em;
+		padding: 10px 60px;
+	}
+
+/* ===============================================================================
+Index Serviços
+================================================================================ */
+.background-bg-cinza {
+	padding: 50px 0 140px 0;
+	background-color: #F2F2F2;
+}
+	/* Serviços titulo top */
+	.servicos-title-top h2 {
+		color: #545454;
+		font-size: 1.625em;
+		font-weight: 900;
+	}
+		.servicos-title-top h2 span {
+			color: #DC6133;
+		}
+	.servicos-title-top p {
+		color: #626262;
+		font: 0.875em;
+		margin-bottom: 0;
+		padding-bottom: 65px;
+	}
+	/* serviços */
+	.servicos-section {
+		height: min(290px);
+		padding: 10px;
+		border-radius: 15px;
+		background-color: #fff;
+	}
+		.servicos-section span.i-style-top {
+			color: #DC6133;
+			font-size: 2.188em;
+		}
+		.servicos-section h3 {
+			color: #545454;
+			font-size: 1.125em;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+		.servicos-section p {
+			color: #626262;
+			font-size: 0.875em;
+		}
+		.servicos-section :nth-child(4) {
+			margin-bottom: 40px;
+		}
+			.servicos-section p a {
+				color: #DC6133;
+				text-decoration: none;
+			}
+		.servicos-section button {
+			color: #fff;
+			border: 1px solid;
+			border-radius: 50px;
+			padding: 0.625em 1.250em;
+			background: #DC6133;
+		}
+			.servicos-section button:hover {
+				color: #DC6133;
+				border-color: #DC6133;
+				background-color: transparent;
+			}
+
+/* ===============================================================================
+footer
+================================================================================ */
+.footer-bg {
+	padding: 32px 0 55px 0;
+	background-color: #323232;
+}
+	.footer-bg h2 {
+		color: #fff;
+		font-size: 1.125em;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	.footer-bg p {
+		color: #fff;
+		font-size: 0.875em;
+		font-weight: lighter;
+		line-height: 25px;
+	}
+		.footer-bg p a {
+			color: #DC6133;
+			text-decoration: none;
+		}
+	.footer-bg ul {
+		padding: 0;
+	}
+		.footer-bg ul li {
+			list-style: none;
+			font-weight: 100;
+		}
+			.footer-bg ul li a {
+				color: #fff;
+				font-size: 0.875em;
+				font-weight: lighter;
+				text-decoration: none;
+			}
+	.redes-sociais span {
+		padding-right: 10px;
+	}
+		.redes-sociais a {
+			color: #fff;
+			font-size: 22px;
+		}
+	.querosercliente span {
+		color: #fff;
+		padding-right: 5px;
+	}
+
+	.querosercliente a {
+		color: #fff;
+		font-size: 0.875em;
+		text-decoration: none;
+	}
+
+.footer-direitos p {
+	color: #333;
+	font-size: 0.875em;
+	margin: 0;
+	padding: 13px 0;
+}
+
+/* ===============================================================================
+==================================================================================
+Sobre o contabil
+==================================================================================
+================================================================================ */
