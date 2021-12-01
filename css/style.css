@@ -122,15 +122,15 @@ Index Serviços
 	background-color: #F2F2F2;
 }
 	/* Serviços titulo top */
-	.servicos-title-top h2 {
+	.title-top h2 {
 		color: #545454;
 		font-size: 1.625em;
 		font-weight: 900;
 	}
-		.servicos-title-top h2 span {
+		.title-top h2 span {
 			color: #DC6133;
 		}
-	.servicos-title-top p {
+	.title-top p {
 		color: #626262;
 		font: 0.875em;
 		margin-bottom: 0;
@@ -243,3 +243,7 @@ footer
 Sobre o contabil
 ==================================================================================
 ================================================================================ */
+
+.margin-top-titulo-sobre {
+	margin-top: 100px;
+}
