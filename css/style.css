@@ -1,5 +1,7 @@
 * {
 	font-family: open-sans, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 /* ===============================================================================
@@ -20,22 +22,25 @@ header
 		color: #DC6133;
 		font-size: 1.063em;
 		font-weight: bold;
-	} 
+	}
 .btn-style {
 	float: right;
-	color: #fff;
-	border-radius: 30px;
-	border: 1px solid #DC6133;
-	padding: 0.625em 1.563em;
-	background-color: #DC6133;
 }
-	.btn-style span {
+	.btn-style a {
+		color: #fff;
+		text-decoration: none;
+		border-radius: 30px;
+		border: 1px solid #DC6133;
+		padding: 0.625em 1.563em;
+		background-color: #DC6133;
+	}
+		.btn-style a:hover {
+			color: #DC6133;
+			background-color: transparent;
+		}
+	.btn-style  span {
 		font-size: 1.000em;
 		padding-left: 0.313em;
-	}
-	.btn-style:hover {
-		color: #DC6133;
-		background-color: transparent;
 	}
 
 /* ========= Menu ========= */
@@ -57,13 +62,9 @@ header
 	.navbar-menu-topo li a {
 		color: #fff;
 	}
-		.navbar-menu-topo li a:hover {
-			color: #fff;
-		}
+		.navbar-menu-topo li a:hover, 
+		.navbar-menu-topo li a:visited, 
 		.navbar-menu-topo li a:active {
-			color: #fff;
-		}
-		.navbar-menu-topo li a:visited {
 			color: #fff;
 		}
 	div.dropdown-menu > a.dropdown-item {
@@ -117,17 +118,17 @@ Index Qualidades
 /* ===============================================================================
 Index Serviços
 ================================================================================ */
-.background-bg-cinza {
+.bg-cinza {
 	padding: 50px 0 140px 0;
 	background-color: #F2F2F2;
 }
 	/* Serviços titulo top */
-	.title-top h2 {
+	.title-top h1, h2 {
 		color: #545454;
 		font-size: 1.625em;
 		font-weight: 900;
 	}
-		.title-top h2 span {
+		.title-top h1 span, h2 span {
 			color: #DC6133;
 		}
 	.title-top p {
@@ -164,7 +165,7 @@ Index Serviços
 				color: #DC6133;
 				text-decoration: none;
 			}
-		.servicos-section button {
+		/* .servicos-section button {
 			color: #fff;
 			border: 1px solid;
 			border-radius: 50px;
@@ -172,6 +173,19 @@ Index Serviços
 			background: #DC6133;
 		}
 			.servicos-section button:hover {
+				color: #DC6133;
+				border-color: #DC6133;
+				background-color: transparent;
+			} */
+
+		.btn-contabil button {
+			color: #fff;
+			border: 1px solid;
+			border-radius: 50px;
+			padding: 0.625em 1.250em;
+			background: #DC6133;
+		}
+			.btn-contabil button:hover {
 				color: #DC6133;
 				border-color: #DC6133;
 				background-color: transparent;
@@ -243,7 +257,141 @@ footer
 Sobre o contabil
 ==================================================================================
 ================================================================================ */
-
 .margin-top-titulo-sobre {
 	margin-top: 100px;
 }
+.contabilidade-servicos {
+	padding: 15px 40px;
+	border-radius: 15px;
+	background-color: #F2F2F2;
+}
+	.contabilidade-servicos span {
+		color: #DC6133;
+		font-size: 3.000em;
+	}
+.bg-white-sobre-contabil {
+	padding: 20px;
+	background-color: #fff;
+}
+
+	.bg-white-sobre-contabil span {
+		float: left;
+		color: #DC6133;
+		font-size: 2.813em;
+    	padding: 11px 14px;
+	}
+	.bg-white-sobre-contabil h3 {
+		color: #DC6133;
+		font-size: 0.875em;
+	}
+	.bg-white-sobre-contabil p {
+		color: #545454;
+		font-size: 0.875em;
+		line-height: 22px;
+		margin: 0;
+	}
+.img-ceo img {
+	float: right;
+}
+	.sobre-contabil-clientes p {
+		color: #545454;
+		margin-top: 15%;
+	}
+		.sobre-contabil-clientes p span {
+			color: #DC6133;
+		}
+.carousel-cliente-body div {
+	padding: 35px;
+	border: 1px solid #C7C7C7;
+	border-radius: 25px;
+}
+	.carousel-cliente-body div p {
+		color: #545454;
+		line-height: 25px;
+		text-align: center;
+	}
+		.carousel-cliente-body div p span {
+			color: #DC6133;
+		}
+
+div.carousel-cliente .carousel-control-prev-icon {
+	background-image: url("img/arrow/arrow-left-solid.png");
+}
+div.carousel-cliente .carousel-control-next-icon {
+	background-image: url("img/arrow/arrow-right-solid.png");
+}
+
+/* ===============================================================================
+==================================================================================
+preciso de um contador
+==================================================================================
+================================================================================ */
+.bg-white {
+	padding: 40px 150px;
+	border-radius: 25px;
+	background-color: #fff;
+}
+	label.control-label {
+		color: #676767;
+	}
+	.bg-white input,
+	.bg-white select {
+		color: #676767;
+		height: min(50px);
+		border-radius: 20px;
+	}
+	.bg-white textarea {
+		color: #676767;
+		height: min(120px);
+		border-radius: 20px;
+	}
+.btn-indicacao {
+	float: right;
+}
+
+/* ===============================================================================
+==================================================================================
+abrir empresa
+==================================================================================
+================================================================================ */
+p.abrir-empresa-p {
+	color: #626262;
+	font-size: 0.875em;
+	margin: 0;
+}
+div.progress {
+	height: 0.3rem;
+}
+	div.progress-bar {
+		background-color: #DC6133;
+	}
+#etapas-abrir-empresa {
+	color: #DC6133;
+	font-size: 0.875em;
+}
+legend.h2-abrir-empresa {
+	margin-bottom: 0;
+}
+.abrir-empresa-img img {
+	padding-top: 30%;
+}
+
+/* ===============================================================================
+==================================================================================
+contato
+==================================================================================
+================================================================================ */
+.h2-contato {
+	color: #6B6B6B;
+	font-size: 1.125em;
+	font-weight: bold;
+}
+.enter-em-contato p {
+	color: #676767;
+	font-size: 0.875em;
+}
+	.enter-em-contato p span {
+		color: #DC6133;
+		padding-right: 15px;
+		text-align: center;
+	}
