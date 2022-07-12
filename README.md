@@ -1,6 +1,5 @@
 # Contabilidade
-
-Experiência no desenvolvimento de projetos com o uso de diversas tecnologias.
+Projeto de um site de contabilidade online.
 
 ## Feito Com
 Abaixo segue o que foi utilizado na criação deste projeto:
