@@ -1,6 +1,8 @@
 # Contabilidade
 Projeto de um site de contabilidade online.
 
+![preview](./.github/preview.png)
+
 ## Feito Com
 Abaixo segue o que foi utilizado na criação deste projeto:
 
