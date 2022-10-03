@@ -59,12 +59,12 @@ header
 			color: #A94119;
 		}
 
-	.navbar-menu-topo li a {
+	.navbar-menu-topo li a.nav-link {
 		color: #fff;
 	}
 		.navbar-menu-topo li a:hover, 
-		.navbar-menu-topo li a:visited, 
-		.navbar-menu-topo li a:active {
+		a:visited, 
+		a:active {
 			color: #fff;
 		}
 	div.dropdown-menu > a.dropdown-item {
@@ -251,7 +251,6 @@ footer
 	margin: 0;
 	padding: 13px 0;
 }
-
 /* ===============================================================================
 ==================================================================================
 Sobre o contabil
